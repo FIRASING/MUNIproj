@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f8f9; /* Light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a4a4a; /* Dark gray text color */
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(239, 237, 231);
+    color: #000000; 
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #3498db; /* Light blue border bottom for section titles */
+    padding: 10px;
+    color: #2c3e50; /* Dark blue text color for titles */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* Add these styles to your existing CSS */
+
+#tools {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*#toolsHeader {
+    color: #2c3e50; 
+    margin-bottom: 8px;
+}*/
+
+#toolsSubList {
+    margin-top: 10px;
+}
+
+#toolsSubList li {
+    color: #04010c;
+    margin-bottom: 5px;
+}
+
+#skills {
+    color: #020224; 
+    margin-bottom: 8px;
+}
+h4{
+color: rgb(46, 15, 89);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
