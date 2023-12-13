@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:#a797fb;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -23,8 +23,8 @@ header {
 section {
     width: 300px;
     margin: 20px;
-    background-color: #a9a0a0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a797fb;
+    box-shadow: 0 0 10px rgba(165, 158, 158, 0.1);
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
@@ -41,21 +41,21 @@ img {
 }
 
 h2 {
-    color: #333;
+    color:white;
     padding: 20px;
     margin: 0;
 }
-
 p {
     font-size: 1em;
     line-height: 1.4;
     padding: 0 20px 20px;
     margin: 0;
+    color: #f4f4f4;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color:#a797fb;
     color: #fff;
 }
