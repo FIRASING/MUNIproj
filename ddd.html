@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemple de preventDefault() avec un formulaire</title>
+</head>
+<body>
+<form id="monFormulaire">
+<label for="email">Email :</label>
+<input type="text" id="email" name="email" /> <button type="submit">Envoyer</button>
+</form>
+<script>
+function handleSubmit (event) {
+    const emailInput = document.getElementById("email"); const emailValeur = emailInput.value.trim();
+const emailRegex = /^\S+@\S+\.\S+$/ ;
+if (!emailRegex.test(emailValeur)) {
+event.preventDefault();
+console.log("veuillez entrer une adresse valide")
+alert("saisie un mail valide")
+}
+}
+
+
+const monFormulaire = document.getElementById("monFormulaire");
+ monFormulaire.addEventListener("submit", handleSubmit);
+</script>
+</body> 
+</html>

@@ -17,58 +17,54 @@
 	<!-- SECTION: Intro -->
 	<header class="header">
 		<!-- SECTION: Navigation -->
-	<div id="top" class="navigation">
-		<div class="navigation__wrapper wrapper--large">
-			<a class="navigation__logo logo" href="#0">Logo</a>
-			<nav class="navigation__container">
+		<nav id="top" class="navigation">
+			<div class="navigation__wrapper wrapper--large">
+
 				<ul class="navigation__list">
-					<li><a href="home.html">work</a></li>
-					<li><a href="work.html">cv</a></li>
+					<li><a href="home.html">Work</a></li>
+					<li><a href="work.html">CV</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
-			</nav>
-			
-			
-		</div>
-	</div>
-	<!-- END SECTION: Navigation -->
+			</div>
+		</nav>
+		<!-- END SECTION: Navigation -->
 	</header>
 	<!-- END SECTION: Intro -->
 	<main role="main">
-
 		<section id="work" class="work">
 			<h2 class="work__heading title">Latest Projects</h2>
-			<img src="img/c-programming-2.jpg" alt="my c project">
-			<h2>devllopment d'une application desktop pour la gestion d'un centre de transfére sangain:</h2>
-			<h3>langage de programation:c</h3>
-			<h3>interface:Glade GTK </h3>
+			<div class="work__project">
+				<img src="img/c-programming-2.jpg" alt="My C Project" id="ii">
+				<div class="work__project-details">
+					<h2>Development of a desktop application for managing a blood transfer center</h2>
+					<h3>Programming Language: C</h3>
+					<h3>Interface: Glade GTK</h3>
+				</div>
+			</div>
 		</section>
-		<section>
-			<button onclick="myFunction()"> my advices fo u </button>
 
+		<section>
+			<button onclick="customAlert()">My Advice for You</button>
 		</section>
 		<section id="contact" class="contact">
 			<h2 class="contact__heading title">Contact Me</h2>
 			<div class="contact__wrapper wrapper--large">
 				<div class="contact__visual">
-					<img src="img/contact-visual.png" >
+					<img src="img/contact-visual.png" alt="Contact Visual">
 				</div>
-				<!-- Simple form setup: formspree.io -->
 				<form class="contact__form">
 					<input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
-					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false"id="emailInput">
+					<input class="contact__form-el contact__form-el--email" type="email" placeholder="Your Email" spellcheck="false" id="emailInput">
 					<textarea class="contact__form-el contact__form-el--message" placeholder="Your Message"></textarea>
-					<input class="contact__form-el contact__form-el--submit" type="submit" value="Send">
+					<input class="contact__form-el contact__form-el--submit" type="button" value="Send" onclick="myFunn()">
 				</form>
 			</div>
 		</section>
-
 	</main>
 	<!-- SECTION: Footer -->
 	<footer class="footer">
 		<div class="footer__wrapper wrapper--large">
-			<p class="footer__copyright no-margin">&copy; 2023 -Esprit</p>
-			
+			<p class="footer__copyright no-margin">&copy; 2023 - Esprit</p>
 		</div>
 	</footer>
 	<!-- END SECTION: Footer -->
